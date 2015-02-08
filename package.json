@@ -1,0 +1,32 @@
+{
+  "name": "hexagon",
+  "version": "1.0.0",
+  "description": "Your basic hexagon",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && faucet unit.js",
+    "doc": "jsdoc -c ./.jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demands/hexagon.git"
+  },
+  "keywords": [
+    "hexagon"
+  ],
+  "author": "Max Edmands",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demands/hexagon/issues"
+  },
+  "homepage": "https://github.com/demands/hexagon",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "jsdoc": "^3.3.0-beta1",
+    "standard": "^2.4.5",
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "zpad": "^0.5.0"
+  }
+}
